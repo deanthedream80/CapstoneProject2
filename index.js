@@ -4,7 +4,9 @@ function validateForm () {
         document.getElementById("noName").innerHTML = "Please Enter Name";
         return false;
     } else {
-        getInputValue(), getHoliday(), hello();
+        getInputValue(), 
+        getHoliday(), 
+        hello();
     }
 }
 
